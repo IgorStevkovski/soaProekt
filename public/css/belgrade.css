@@ -1,0 +1,218 @@
+#telo{
+    background-image: url('background.jpg');
+    background-repeat: repeat ;
+    font-size: 100%;
+    font-family: Arial;
+    width: 65%;
+    margin: auto;
+}
+
+#container{
+
+}
+
+#gornoMeni{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    background-color: darkred;
+    border-radius: 10px;
+    color: #dff0d8;
+    font-size: 120%;
+}
+
+#naslovMeni{
+    float: left;
+    padding-left: 10px;
+}
+
+#logoutLinkMeni{
+    float: right;
+    padding-right: 40px;
+}
+
+#logoutLinkMeni a{
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #dff0d8;
+    border-radius: 10px;
+    color: darkred;
+}
+
+#logoutLinkMeni a:hover{
+    background-color: white;
+}
+#kartaITemp{
+    clear: both;
+}
+
+#mapaBeograd{
+    float: left;
+    margin-top: 5px;
+    width: 70%;
+}
+
+#forecastDiv{
+    float: right;
+    width: 25%;
+    height: 230px;
+    padding-left: 5px;
+    padding-right: 20px;
+    padding-top: 20px;
+    background-color: #FFF1F3;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+#currentWeather{
+    text-align: center;
+}
+
+#tempDiv{
+    clear: both;
+}
+
+#temperatura{
+    float: left;
+    text-align: center;
+    /*margin-left: 30px;*/
+}
+
+#slikaTemperatura{
+    float: left;
+}
+#bgdCity{
+    font-size: 150%;
+    clear: both;
+}
+
+#description{
+    float: left;
+    text-align: center;
+}
+
+/* Od ovde nadole za listata Hoteli i Restorani e CSS-ot */
+#restorani{
+    float: left;
+    width: 20%;
+    background-color: #FFF1F3;
+    border-radius: 10px;
+    margin-top: 5px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#btnHoteli{
+    width: 100%;
+    height: 40px;
+    background-color: #edffca;
+    border-radius: 5px;
+    border-color: #deff88;
+    text-align: center;
+    color: black;
+}
+
+#btnHoteli:hover{
+    border-color:darkred;
+}
+
+#imeHotel{
+    margin-bottom: 4px;
+}
+
+/* Od ovde nadole e za Postovite i Formata za vnasanje post CSS-ot*/
+
+#postoviDiv{
+    margin-left: 22%; /*zaradi levo listata so Hoteli koja moze da se hide-va za da postovite ne begaat levo*/
+}
+
+#formEnterPostDiv{
+    background-color: white;
+    border-color: darkred;
+    border-radius: 10px;
+
+    float: left;
+    width: 61%;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+#btnObjaviPost{
+    text-align: right;
+    float: right;
+    background-color: darkred;
+    border-color: darkred;
+    border-radius: 3px;
+    color: #dff0d8;
+}
+
+#eachPostDiv{
+    float: left;
+    width: 61%;
+    padding: 5px;
+    margin-top: 5px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#imeUser{
+    margin-top: 5px;
+    font-size: 95%;
+}
+
+#komentarUser{
+    margin-bottom: 10px;
+}
+
+#likesDiv{
+
+}
+
+#LikesPTag{
+    float: left;
+    /*display: block;*/
+    color: darkred;
+}
+
+[id^='like~']{
+    float: right;
+    background-color: darkred;
+    border-color: darkred;
+    border-radius: 3px;
+    color: #dff0d8;
+}
+
+#komentariDiv{
+    clear: both; /*ZA DA NE NAVLEGUVA VO GORNIOT DIV KOJ IMA FLOATING OBJEKTI*/
+}
+
+[id^='comments~']{
+    float: left;
+    font-size: 70%;
+    color: darkred;
+}
+
+[id^='submitComment~']{
+    float: right;
+    color: darkred;
+
+}
+
+[id^='komentari']{
+    clear: both;
+    margin-top: 30px;
+}
+
+[id^='komentarRecenica']{
+    margin-bottom: 1px;
+    font-size: 90%;
+    /*display: block;*/
+}
+
+#greski{
+    color: red;
+    background-color: white;
+}

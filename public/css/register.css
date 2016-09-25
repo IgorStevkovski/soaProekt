@@ -1,0 +1,92 @@
+body{
+    /*background-image:url('/public/sliki/logo.png');*/
+    /*background-repeat: repeat;*/
+    color: black;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+#telo{
+    background-image: url(background.jpg);
+    background-repeat: repeat;
+}
+
+.body{
+    width: 60%;
+    margin: auto;
+}
+
+.panel-heading{
+    background-color: darkred;
+    border-radius: 10px;
+    color: #dff0d8;
+    font-size: 120%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+.panel-heading span{
+
+}
+
+#formID{
+    background-color: #FFFFE7;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.form-groupName{
+    /*margin-top: 20px;*/
+    margin-bottom: 15px;
+    margin-left: 10px;
+    padding-top: 15px;
+
+}
+.form-group{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+.form-groupPhoto{
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+.labelName,.labelEmail, .labelPass, .labelRepeatPass{
+    font-size: 120%;
+}
+
+/*Za input polinjata*/
+.form-control{
+    width: 50%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.form-groupButton{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+
+}
+
+#btnRegister{
+    margin-top: 30px;
+    width: 90px;
+    height: 40px;
+    background-color:darkred ;
+    border-color:darkred ;
+    border-radius: 3px;
+    color: #dff0d8;
+    font-size: 120%;
+}
+
+#errorInput{
+    margin-left: 10px;
+    color: red;
+}

@@ -1,0 +1,114 @@
+body{
+    /*background-image:url('/public/sliki/logo.png');*/
+    /*background-repeat: repeat;*/
+    color: black;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+#telo{
+    background-image: url(background.jpg);
+    background-repeat: repeat;
+}
+
+.body{
+    width: 60%;
+    margin: auto;
+}
+
+#loginName{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    /*text-align: center;*/
+    background-color: darkred;
+    border-radius: 10px;
+}
+
+#textLoginDiv{
+    float: left;
+    margin-left: 2%;
+    color: #dff0d8;
+    font-size: 120%;
+}
+
+#linkRegisterDiv{
+    float: right;
+    margin-right: 2%;
+}
+
+#linkRegisterDiv a{
+    text-decoration: none;
+    padding: 5px 8px;
+    background-color: #dff0d8;
+    border-radius: 5px;
+    color: darkred;
+}
+
+#linkRegisterDiv a:hover{
+    background-color:white;
+}
+
+#divFormID{
+    clear: both;
+    background-color: #FFFFE7;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#formID{
+    padding-top: 20px;
+}
+.form-groupa{
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+.form-groupaButton{
+    margin-top: 100px;
+    margin-right: 20px;
+    margin-left: 20px;
+    /*margin-bottom: 40px;*/
+    text-align: center;
+}
+
+#labelEmail{
+    font-size: 150%;
+    margin-top: 40px;
+}
+
+#labelPass{
+    font-size: 150%;
+}
+
+#labelCheckBox{
+    font-size: 120%;
+}
+
+/*za Input polinjata*/
+.form-control{
+    width: 50%;
+    height: 30px;/*Za da i na pomal ekran ima fiksna visina*/
+    border-radius: 5px;
+}
+
+.btn-submit{
+    width: 80px;
+    height: 40px;
+    background-color:darkred ;
+    border-color:darkred ;
+    border-radius: 3px;
+    color: #dff0d8;
+    margin-bottom: 10px;
+
+    font-size: 120%;
+}
+
+.alert-errorInput{
+    color: red;
+}
+/*#karta{*/
+    /*width: 100%;*/
+    /*margin-top: -21px;*/
+/*}*/
