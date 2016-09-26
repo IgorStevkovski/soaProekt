@@ -99,7 +99,7 @@
                 @endif
                 <div id="likesDiv">
 
-                    <form method="post" name="like{!! $post->id !!}" id="likeSubmit-{!! $post->id !!}" action="/city/belgrade/insertLike">
+                    <form method="post" name="like{!! $post->id !!}" id="likeSubmit-{!! $post->id !!}" action="/laravelProektSOA/public/city/belgrade/insertLike">
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
                         <input type="hidden" name="brojPost" value="{!! $post->id !!}">
                         <button name="submitLike" id="like~{!! $post->id !!}">Like</button>
@@ -110,7 +110,7 @@
                 </div>
 
                 <div id="komentariDiv">
-                    <form method="post" name="post{!! $post->id !!}" id="postComment-{!! $post->id !!}" action="/city/belgrade/createComment">
+                    <form method="post" name="post{!! $post->id !!}" id="postComment-{!! $post->id !!}" action="/laravelProektSOA/public/city/belgrade/createComment">
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
                         <input type="hidden" name="brojPost" value="{!! $post->id !!}">
                         <textarea rows="2" cols="40" name="inputForPost{!! $post->id !!}" id="inputForPost{!! $post->id !!}" placeholder="Write comment..."></textarea>
