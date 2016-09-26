@@ -1,2 +1,0 @@
-# soaProekt
-proekt po SOA
