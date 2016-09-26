@@ -10,7 +10,7 @@
 						<div id="textLoginDiv">
 							<span>Login Page</span>
 						</div>
-						<div id="linkRegisterDiv"><a href="/laravelProektSOA/public/auth/register" id="linkRegister">Register now!</a></div>
+						<div id="linkRegisterDiv"><a href="/auth/register" id="linkRegister">Register now!</a></div>
 					</div>
 
 					<div id="divFormID">
