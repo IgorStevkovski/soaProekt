@@ -54,7 +54,7 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'host' => '188.166.14.86',
+            'host' => 'localhost',
             'port' => '8082',
             'database' => 'csdzzaanzd',
             'username' => 'csdzzaanzd',
