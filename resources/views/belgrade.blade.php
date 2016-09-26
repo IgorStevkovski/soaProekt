@@ -172,7 +172,7 @@
 
                     $.ajax({
                         type: "POST",
-                        url:"city/belgrade/createComment",
+                        url:"laravelProektSOA/public/city/belgrade/createComment",
                         //url:"CityController@belgradeCreateComment",
                         data: $(id).serialize(),
 
